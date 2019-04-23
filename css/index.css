@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,500);
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+* {
+	outline: none;
+	text-align: center;
+	margin: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+h1 {
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Raleway";
+	font-weight: 100;
+	font-size: 60px;
+}
+
+h3 {
+	font-family: "Raleway";
+	font-weight: 400;
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+p {
+	font-family: "Raleway";
+	font-weight: 400;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+button {
+	width: 115px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Raleway";
+	font-weight: 500;
+	text-transform: uppercase;
+	background: #fff;
+	font-size: 18px;
+	color: #364C6D;
+	border: 3px solid #364C6D;
+	-webkit-transition: 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #364C6D;
+	color: #fff;
+}
+
+a {
+	color: #364C6D;
+}
+
+#header {
+	background: #364C6D;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+}
+
+#nav {
+	display: inline-block;
+}
+
+#nav ul {
+	list-style-type: none;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#nav li {
+	font-family: "Raleway";
+	font-weight: 400;
+	color: #fff;
+	display: inline-block;
+	line-height: 90px;
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#nav img {
+	height: 90px;
+	float: left;
+}
+
+#intro {
+	width: 100%;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+#introbg {
+	width: 100%;
+	height: 600px;
+	background: url(../img/cover.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: none;
+	position: absolute;
+	z-index: -1;
+}
+
+#main {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+
+#title {
+	width: auto;
+	display: inline-block;
+	color: #fff;
+}
+
+#title h1, h2 {
+	padding: 0;
+	float: left;
+}
+
+#main h3, p {
+	color: #fff;
+}
+
+#about {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+#about h1 {
+	color: #364C6D;
+	padding-top: 30px;
+}
+
+#about p {
+	color: #000;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#faq {
+	width: 100%;
+	height: 100%;
+	background: #364C6D;
+}
+
+#faq h1 {
+	color: #9cb8e2;
+	padding-top: 30px;
+}
+
+#faq h3 {
+	color: #fff;
+	font-weight: 500;
+}
+
+#faq p {
+	color: #fff;
+	font-weight: 100;
+	padding-top: 10px;
+}
+
+#questions {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#sponsors {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+#sponsors h1 {
+	color: #364C6D;
+	padding-top: 30px;
+}
+
+#sponsors h3 {
+	color: #000;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tera {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#tera img {
+	max-width: 370px;
+	max-width: 370px;
+	padding: 10px;
+}
+
+#giga {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#giga img {
+	max-width: 200px;
+	max-width: 200px;
+	padding: 10px;
+}
+
+#mega {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#mega img {
+	max-width: 80px;
+	max-width: 80px;
+	padding: 10px;
+}
+
+#contact {
+	width: 100%;
+	height: 100%;
+	background: #364C6D;
+}
+
+#contact h1 {
+	color: #9cb8e2;
+	padding-top: 30px;
+}
+
+#contact h3 {
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact a {
+	color: #9cb8e2;
+}
+
+#footer {
+	height: 60px;
+	background: #9cb8e2;
+}
+
+#footer p {
+	padding: 0;
+	line-height: 60px;
+}
+
+#footer a {
+	color: #fff;
+}
